@@ -1,0 +1,153 @@
+{
+  "backlink_strategy": {
+    "primary_sites": [
+      {
+        "name": "Medium",
+        "url": "medium.com",
+        "type": "content_platform",
+        "domain_authority": 95,
+        "requirements": "Account needed, follow community guidelines",
+        "content_types": ["guides", "reviews", "industry_insights"],
+        "notes": "Excellent for thought leadership, republish with canonical link"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "linkedin.com",
+        "type": "professional_network", 
+        "domain_authority": 98,
+        "requirements": "Professional account, business-focused content",
+        "content_types": ["industry_trends", "business_use_cases", "tool_reviews"],
+        "notes": "Great for B2B audience, company page posting recommended"
+      },
+      {
+        "name": "Dev.to",
+        "url": "dev.to",
+        "type": "developer_community",
+        "domain_authority": 87,
+        "requirements": "Developer-focused content only",
+        "content_types": ["api_guides", "technical_tutorials", "tool_comparisons"],
+        "notes": "Perfect for API and technical content"
+      }
+    ],
+    "secondary_sites": [
+      {
+        "name": "Quora",
+        "url": "quora.com", 
+        "type": "qa_platform",
+        "domain_authority": 90,
+        "requirements": "Answer relevant questions naturally",
+        "content_types": ["expert_answers", "tool_recommendations"],
+        "notes": "Focus on providing helpful answers, not self-promotion"
+      },
+      {
+        "name": "Reddit",
+        "url": "reddit.com",
+        "type": "discussion_platform",
+        "domain_authority": 91,
+        "requirements": "Follow subreddit rules, community participation",
+        "content_types": ["community_discussions", "tool_showcases"],
+        "notes": "Target relevant subreddits: r/artificial, r/MachineLearning, r/graphic_design"
+      },
+      {
+        "name": "HubPages", 
+        "url": "hubpages.com",
+        "type": "article_platform",
+        "domain_authority": 85,
+        "requirements": "Original, high-quality content",
+        "content_types": ["comprehensive_guides", "reviews"],
+        "notes": "Good for evergreen content, revenue sharing available"
+      }
+    ],
+    "niche_sites": [
+      {
+        "name": "Beehiiv",
+        "url": "beehiiv.com",
+        "type": "newsletter_platform",
+        "domain_authority": 70,
+        "requirements": "Newsletter format content",
+        "content_types": ["industry_updates", "tool_roundups"],
+        "notes": "Growing platform for newsletter creators"
+      },
+      {
+        "name": "Write.as",
+        "url": "write.as",
+        "type": "minimalist_blogging",
+        "domain_authority": 60,
+        "requirements": "Clean, focused writing",
+        "content_types": ["thought_pieces", "tutorials"],
+        "notes": "Clean, distraction-free platform"
+      },
+      {
+        "name": "Tumblr",
+        "url": "tumblr.com",
+        "type": "creative_platform",
+        "domain_authority": 86,
+        "requirements": "Visual content works well",
+        "content_types": ["creative_showcases", "visual_tutorials"],
+        "notes": "Great for creative community, visual-heavy content"
+      }
+    ]
+  },
+  "distribution_strategy": {
+    "tier_1_priority": [
+      "Medium",
+      "LinkedIn", 
+      "Dev.to"
+    ],
+    "tier_2_targets": [
+      "Quora",
+      "Reddit",
+      "HubPages"
+    ],
+    "tier_3_supplemental": [
+      "Beehiiv",
+      "Write.as", 
+      "Tumblr"
+    ]
+  },
+  "content_adaptation_guidelines": {
+    "medium": {
+      "format": "Long-form articles with personal insights",
+      "tone": "Thought leadership, industry expertise",
+      "cta": "Subtle mention of ChromaStudio capabilities"
+    },
+    "linkedin": {
+      "format": "Business-focused with professional insights",
+      "tone": "Corporate, ROI-focused",
+      "cta": "Professional tool recommendations"
+    },
+    "dev_to": {
+      "format": "Technical tutorials with code examples",
+      "tone": "Developer-friendly, technical accuracy",
+      "cta": "API integration examples"
+    },
+    "reddit": {
+      "format": "Community discussion, helpful insights",
+      "tone": "Casual, community member",
+      "cta": "Natural recommendations when relevant"
+    }
+  },
+  "submission_schedule": {
+    "frequency": "3 submissions per original article",
+    "timing": "Stagger over 2-3 weeks to avoid duplicate content issues",
+    "priority_order": [
+      "Publish on ChromaStudio blog first",
+      "Submit to Tier 1 sites after 1 week", 
+      "Submit to Tier 2 sites after 2 weeks",
+      "Submit to Tier 3 sites after 3 weeks"
+    ]
+  },
+  "tracking_metrics": {
+    "backlink_quality": "Domain authority and relevance",
+    "referral_traffic": "Clicks back to ChromaStudio",
+    "brand_mentions": "Citations and brand recognition",
+    "engagement": "Comments, shares, and discussions"
+  },
+  "best_practices": {
+    "content_adaptation": "Modify titles and intros for each platform",
+    "canonical_links": "Always point back to original ChromaStudio article",
+    "community_engagement": "Respond to comments and discussions",
+    "value_first": "Focus on providing value, not promotion",
+    "platform_optimization": "Follow each platform's best practices"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "competitor_analysis": {
+    "analyzed_sites": [
+      "higgsfield.ai",
+      "imagine.art", 
+      "seedance.ai",
+      "a1art.co",
+      "overchat.ai"
+    ],
+    "analysis_date": "2026-02-20"
+  },
+  "voice_patterns": {
+    "overall_characteristics": {
+      "enthusiasm_level": "professional_excitement",
+      "user_empowerment": "what_will_you_create_approach", 
+      "technical_accessibility": "advanced_features_explained_simply",
+      "creative_focus": "emphasizes_artistic_potential"
+    },
+    "sentence_structure": {
+      "headline_length": "5-8 words maximum",
+      "paragraph_length": "2-4 sentences", 
+      "language_style": "action_oriented",
+      "engagement_method": "question_based"
+    },
+    "key_language_patterns": {
+      "opening_hooks": [
+        "Transform your [creative process/workflow/ideas]",
+        "What will you create today?",
+        "Unlock endless possibilities", 
+        "Step inside [tool/feature name]"
+      ],
+      "feature_descriptions": {
+        "format": "[Tool name]: [One-line benefit]",
+        "example": "Cinema Studio 2.0: Step inside 3D scenes, control every shot",
+        "focus": "immediate_value_plus_creative_control"
+      },
+      "cta_patterns": [
+        "Start Creating",
+        "Get Started", 
+        "Try [Tool Name]",
+        "Generate Now",
+        "Explore All Tools",
+        "Create [Content Type]"
+      ]
+    }
+  },
+  "chromastudio_brand_voice": {
+    "core_personality": {
+      "creative_catalyst": "We spark artistic breakthroughs",
+      "innovation_driven": "Cutting-edge AI made accessible",
+      "community_focused": "Build, share, inspire together", 
+      "results_oriented": "From concept to creation in minutes"
+    },
+    "language_guidelines": {
+      "do_use": [
+        "Create, Transform, Generate, Unlock",
+        "Artistic vision, Visual storytelling, Creative workflow",
+        "In seconds, Instantly, One-click",
+        "Creators, Artists, Community, Share"
+      ],
+      "dont_use": [
+        "Overly technical jargon without explanation",
+        "Passive language - Can be used",
+        "Lengthy explanations",
+        "Generic AI terms"
+      ]
+    },
+    "power_words": [
+      "Instant", "Professional", "Stunning", "Cinematic", 
+      "Creative", "Unlimited", "Advanced", "Seamless",
+      "Powerful", "Revolutionary"
+    ],
+    "sentence_starters": [
+      "Create...", "Transform...", "Generate...", "Unlock...",
+      "Design...", "Craft...", "Build...", "Discover..."
+    ]
+  }
+}

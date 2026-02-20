@@ -1,0 +1,85 @@
+{
+  "design_system": {
+    "theme": "dark_mode_saas",
+    "color_palette": {
+      "background": "#0A0A0F", 
+      "text": "#FFFFFF",
+      "accent": "#3B82F6",
+      "secondary": "#374151"
+    },
+    "spacing_system": {
+      "base_grid": "8px",
+      "section_breaks": "48-64px",
+      "paragraph_spacing": "16-24px", 
+      "border_radius": "12px"
+    },
+    "typography": {
+      "content_width": "700-760px maximum",
+      "reading_column": "clean, narrow focus",
+      "whitespace": "lots of breathing room"
+    }
+  },
+  "page_layouts": {
+    "blog_homepage": {
+      "page_title": "Blogs (centered with subtitle)",
+      "filters": "Tab filters (All, Blog, Reviews, Information) + search bar",
+      "featured_hero": "2-column (text left, image right)", 
+      "blog_grid": "3-column grid, categorized by type",
+      "card_format": "thumbnail image, date, title"
+    },
+    "blog_article": {
+      "breadcrumbs": "navigation at top",
+      "hero_section": "title + description (left) + featured image (right)",
+      "cta_button": "Try for Free button prominent",
+      "author_bar": "avatar, name, date, social share icons",
+      "content_structure": [
+        "Step-by-step sections with H3 headings",
+        "Screenshots and visual placeholders", 
+        "Blockquotes/callouts with left border accent",
+        "Comparison tables in dark cards",
+        "Inline CTAs (Try [tool] on ChromaStudio banners)",
+        "FAQ accordion section with expandable questions",
+        "CTA banner (Try [Tool] on ChromaStudio + buttons)",
+        "Recommended Blogs - 3-card row at bottom"
+      ]
+    }
+  },
+  "component_specifications": {
+    "hero_cards": {
+      "layout": "2-column text and image",
+      "usage": "featured articles on homepage"
+    },
+    "comparison_tables": {
+      "style": "dark cards with borders", 
+      "content": "feature comparisons, pricing"
+    },
+    "faq_accordion": {
+      "behavior": "expandable questions",
+      "styling": "clean, minimalist"
+    },
+    "cta_banners": {
+      "format": "Try [Tool] on ChromaStudio",
+      "buttons": "blue accent (#3B82F6)",
+      "placement": "strategic throughout content"
+    },
+    "related_articles": {
+      "layout": "3-card horizontal row",
+      "position": "bottom of article"
+    }
+  },
+  "content_formatting": {
+    "visual_requirements": [
+      "Hero images (1200x600px) for each article",
+      "Step-by-step screenshots for guides", 
+      "Before/after comparisons for tool reviews",
+      "Video thumbnails for tutorials",
+      "Expandable FAQ sections"
+    ],
+    "text_formatting": [
+      "Scannable headlines (H1, H2, H3 hierarchy)",
+      "Bullet points for easy reading",
+      "Call-out boxes for key tips", 
+      "Visual breaks between sections"
+    ]
+  }
+}

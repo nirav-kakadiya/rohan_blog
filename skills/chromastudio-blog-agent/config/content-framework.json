@@ -1,0 +1,113 @@
+{
+  "blog_types": {
+    "total_categories": 10,
+    "categories": [
+      {
+        "name": "Guides",
+        "description": "Step-by-step how-tos",
+        "structure": "Problem → Solution → Steps → Results",
+        "examples": ["How to generate AI images from text", "How to fix blurry AI images"]
+      },
+      {
+        "name": "Prompt Library",
+        "description": "Copy-paste prompt collections", 
+        "structure": "Introduction → Categories → Prompts → Tips",
+        "examples": ["100+ AI prompts for product photography", "Best prompts for anime style"]
+      },
+      {
+        "name": "Tips & Tricks",
+        "description": "Quick tutorials with pro tips",
+        "structure": "Hook → Quick Tips → Advanced Techniques → Pro Secrets",
+        "examples": ["Pro tips for better AI portraits", "Advanced prompt engineering tricks"]
+      },
+      {
+        "name": "Comparisons", 
+        "description": "Vs / alternatives posts",
+        "structure": "Overview → Feature Comparison → Verdict → Recommendations",
+        "examples": ["Midjourney vs Flux vs Recraft", "Kling vs Hailuo vs Runway"]
+      },
+      {
+        "name": "Use Cases",
+        "description": "Industry/application focused",
+        "structure": "Industry Problem → AI Solution → Examples → Implementation",
+        "examples": ["AI image generator for e-commerce", "AI video for real estate ads"]
+      },
+      {
+        "name": "API Related",
+        "description": "Developer-focused integration guides", 
+        "structure": "Setup → Authentication → Implementation → Error Handling",
+        "examples": ["ChromaStudio API integration guide", "Building apps with AI image APIs"]
+      },
+      {
+        "name": "Upcoming / Trends",
+        "description": "New models, releases, what's coming",
+        "structure": "Current State → What's New → Impact → Future Outlook", 
+        "examples": ["Best AI image models in 2026", "Flux vs GPT Image vs Midjourney"]
+      },
+      {
+        "name": "Troubleshooting & Fix",
+        "description": "Error resolution posts",
+        "structure": "Problem Description → Diagnosis → Solutions → Prevention",
+        "examples": ["Fix AI hands problems", "Resolve blurry AI image output"]
+      },
+      {
+        "name": "Particular (Tools & Models)",
+        "description": "Deep dives on specific tools",
+        "structure": "Tool Overview → Features → Use Cases → Verdict",
+        "examples": ["Flux 2.0 complete review", "Sora vs Runway comparison"]
+      },
+      {
+        "name": "Review",
+        "description": "Tool/model reviews",
+        "structure": "Introduction → Features → Performance → Pricing → Verdict",
+        "examples": ["Flux 2 Review", "Deevid AI Review"]
+      }
+    ]
+  },
+  "universal_structure": {
+    "required_sections": [
+      "H1 Title (with primary keyword)",
+      "Intro/Hook (2-4 lines, problem + solution)", 
+      "TL;DR (3-5 bullet quick summary)",
+      "Table of Contents",
+      "Main Body (4-6 H2 sections minimum)",
+      "FAQs (5-10 keyword-focused questions)",
+      "Conclusion + CTA",
+      "At least 1 internal link + related posts"
+    ],
+    "section_requirements": {
+      "introduction": {
+        "hook": "1 sentence - problem or opportunity",
+        "solution": "1-2 sentences - how ChromaStudio helps", 
+        "promise": "1 sentence - what they'll achieve"
+      },
+      "body_content": {
+        "feature_sections": "H2 headings",
+        "sub_features": "H3 headings",
+        "bullet_points": "key benefits",
+        "paragraphs": "2-3 sentences max"
+      },
+      "faq_patterns": [
+        "How do I... (process questions)",
+        "What makes [tool] unique? (differentiation)",
+        "Does it cost money to... (pricing)",
+        "What [content type] features... (capabilities)"
+      ]
+    }
+  },
+  "seo_rules": {
+    "global_requirements": [
+      "Primary keyword in H1, first 100 words, and at least one H2",
+      "Optional: tables, schema markup, downloadables, checklists"
+    ],
+    "optimization_checklist": [
+      "Compelling headline with benefit/outcome",
+      "Engaging hook in first 2 sentences", 
+      "Clear value propositions throughout",
+      "Action-oriented CTAs",
+      "Community/creator focus",
+      "Specific, measurable benefits",
+      "Creative use case examples"
+    ]
+  }
+}
