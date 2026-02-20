@@ -1,0 +1,194 @@
+{
+  "universal_platform_support": {
+    "description": "Configuration for generating blog content for any AI platform",
+    "supported_features": [
+      "automatic_sitemap_fetching",
+      "brand_name_extraction",
+      "platform_specific_internal_linking",
+      "adaptive_brand_voice",
+      "universal_tool_categorization",
+      "flexible_cta_generation"
+    ]
+  },
+  "platform_detection": {
+    "brand_name_extraction": {
+      "method": "domain_parsing",
+      "patterns": [
+        "extract_main_domain_part",
+        "handle_hyphenated_names", 
+        "capitalize_appropriately"
+      ],
+      "examples": {
+        "chromastudio.ai": "ChromaStudio",
+        "maxstudio.ai": "MaxStudio", 
+        "ai-art-generator.com": "AI Art Generator",
+        "creative-tools.net": "Creative Tools"
+      }
+    },
+    "platform_category_detection": {
+      "ai_creative": ["studio", "creative", "art", "design", "generate"],
+      "ai_tools": ["ai", "tool", "generator", "maker", "create"],
+      "content_platform": ["content", "media", "publish", "share"],
+      "tech_platform": ["tech", "software", "app", "platform"],
+      "specialized": ["photo", "video", "text", "audio", "3d"]
+    }
+  },
+  "universal_tool_categories": {
+    "image_generation": {
+      "keywords": ["text-to-image", "ai-image", "image-generator", "create-image", "generate-image"],
+      "anchor_variations": ["AI Image Generator", "Text to Image", "Image Creation Tool", "Photo Generator"]
+    },
+    "video_generation": {
+      "keywords": ["text-to-video", "ai-video", "video-generator", "create-video", "generate-video"],
+      "anchor_variations": ["AI Video Generator", "Text to Video", "Video Creation Tool", "Video Maker"]
+    },
+    "image_to_video": {
+      "keywords": ["image-to-video", "animate-image", "photo-to-video", "motion-image"],
+      "anchor_variations": ["Image to Video", "Photo Animation", "Motion Creator", "Animate Images"]
+    },
+    "video_enhancement": {
+      "keywords": ["video-upscaler", "enhance-video", "improve-video", "video-quality"],
+      "anchor_variations": ["Video Upscaler", "Video Enhancement", "Improve Video Quality", "Video AI"]
+    },
+    "image_enhancement": {
+      "keywords": ["image-upscaler", "enhance-image", "improve-image", "photo-quality"],
+      "anchor_variations": ["Image Upscaler", "Photo Enhancement", "Image Quality", "Enhance Photos"]
+    },
+    "background_editing": {
+      "keywords": ["remove-background", "background-remover", "cutout", "background-editor"],
+      "anchor_variations": ["Background Remover", "Remove Background", "Photo Cutout", "Background Editor"]
+    },
+    "style_transfer": {
+      "keywords": ["style-transfer", "artistic-style", "art-filter", "style-editor"],
+      "anchor_variations": ["Style Transfer", "Art Filter", "Artistic Effects", "Style Editor"]
+    },
+    "audio_generation": {
+      "keywords": ["text-to-speech", "voice-generator", "audio-ai", "speech-synthesis"],
+      "anchor_variations": ["Text to Speech", "Voice Generator", "AI Audio", "Speech AI"]
+    }
+  },
+  "linking_strategy": {
+    "link_distribution": {
+      "primary_ctas": {
+        "count": "6-8",
+        "focus": "main_platform_tools",
+        "anchor_strategy": "platform_branded"
+      },
+      "contextual_links": {
+        "count": "15-20", 
+        "focus": "relevant_tools_mentioned",
+        "anchor_strategy": "natural_keyword_replacement"
+      },
+      "supporting_links": {
+        "count": "5-8",
+        "focus": "homepage_and_key_pages",
+        "anchor_strategy": "brand_reinforcement"
+      }
+    },
+    "anchor_text_adaptation": {
+      "platform_specific": "Try {Platform Name}",
+      "tool_specific": "{Tool Name} on {Platform}",
+      "generic_branded": "{Platform} {Tool Category}",
+      "natural_mentions": "{Platform}'s {Tool Description}"
+    }
+  },
+  "sitemap_fetching": {
+    "primary_locations": [
+      "/sitemap.xml",
+      "/sitemap_index.xml", 
+      "/sitemaps/sitemap.xml"
+    ],
+    "fallback_methods": [
+      "robots_txt_parsing",
+      "navigation_crawling",
+      "common_path_guessing"
+    ],
+    "url_filtering": {
+      "include_patterns": [
+        "tool pages",
+        "generator pages", 
+        "create pages",
+        "feature pages"
+      ],
+      "exclude_patterns": [
+        "blog posts",
+        "about pages",
+        "legal pages",
+        "account pages"
+      ]
+    },
+    "caching": {
+      "duration": "1_hour",
+      "key_format": "domain_based",
+      "refresh_trigger": "article_generation"
+    }
+  },
+  "brand_voice_adaptation": {
+    "tone_consistency": {
+      "maintain": ["professional", "helpful", "authoritative"],
+      "adapt": ["brand_terminology", "platform_specific_features", "cta_language"]
+    },
+    "replacement_patterns": {
+      "platform_name": {
+        "from": "ChromaStudio",
+        "to": "dynamic_platform_name"
+      },
+      "domain_references": {
+        "from": "chromastudio.ai", 
+        "to": "dynamic_platform_domain"
+      },
+      "cta_adaptation": {
+        "from": "Try ChromaStudio",
+        "to": "Try {Platform Name}"
+      }
+    }
+  },
+  "seo_optimization": {
+    "platform_specific_elements": {
+      "title_format": "{Keyword} Review: Complete {Platform Name} Guide ({Year})",
+      "description_format": "{Keyword} review for {Platform Name}. Features, pricing, hands-on testing. Try {Tool} on {Platform} today.",
+      "keyword_integration": "natural_platform_context"
+    },
+    "internal_link_optimization": {
+      "platform_homepage": "1-2_links_per_article",
+      "tool_pages": "15-25_links_per_article", 
+      "feature_pages": "5-10_links_per_article",
+      "anchor_diversity": "minimum_2_variations_per_url"
+    }
+  },
+  "quality_assurance": {
+    "content_validation": [
+      "platform_name_consistency",
+      "correct_domain_references", 
+      "relevant_internal_links",
+      "working_url_links",
+      "brand_voice_alignment"
+    ],
+    "link_validation": [
+      "url_accessibility",
+      "anchor_text_naturalness",
+      "link_relevance",
+      "distribution_balance"
+    ],
+    "seo_validation": [
+      "keyword_placement",
+      "platform_optimization",
+      "schema_markup_readiness",
+      "meta_tag_accuracy"
+    ]
+  },
+  "output_customization": {
+    "platform_specific_sections": {
+      "brand_integration": "seamless_platform_mentions",
+      "tool_showcasing": "platform_tool_highlights", 
+      "cta_optimization": "platform_conversion_focus",
+      "cross_linking": "internal_platform_navigation"
+    },
+    "content_adaptation": {
+      "maintain_quality": true,
+      "preserve_structure": true,
+      "adapt_messaging": true,
+      "customize_examples": true
+    }
+  }
+}
