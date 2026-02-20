@@ -1,0 +1,211 @@
+{
+  "linking_strategy": {
+    "description": "Intelligent internal linking system for ChromaStudio blog content",
+    "goals": [
+      "Improve SEO through strategic internal linking",
+      "Guide users to relevant ChromaStudio tools",
+      "Increase page authority distribution",
+      "Enhance user experience and engagement"
+    ],
+    "link_targets": {
+      "primary_tools": [
+        {
+          "path": "/text-to-video",
+          "anchor_variations": ["text-to-video", "text to video AI", "AI video generation"],
+          "category": "video-generation",
+          "priority": "high"
+        },
+        {
+          "path": "/image-to-video-ai",
+          "anchor_variations": ["image-to-video", "image to video AI", "animate images"],
+          "category": "video-generation",
+          "priority": "high"
+        },
+        {
+          "path": "/text-to-image-ai",
+          "anchor_variations": ["text-to-image", "AI image generator", "text to image AI"],
+          "category": "image-generation",
+          "priority": "high"
+        },
+        {
+          "path": "/ai-video-upscaler",
+          "anchor_variations": ["AI video upscaler", "video upscaling", "enhance video quality"],
+          "category": "enhancement",
+          "priority": "medium"
+        },
+        {
+          "path": "/ai-image-upscaler", 
+          "anchor_variations": ["AI image upscaler", "image upscaling", "enhance image quality"],
+          "category": "enhancement",
+          "priority": "medium"
+        },
+        {
+          "path": "/ai-video-style-transfer",
+          "anchor_variations": ["video style transfer", "AI video style", "video effects"],
+          "category": "effects",
+          "priority": "medium"
+        },
+        {
+          "path": "/motion-control",
+          "anchor_variations": ["motion control", "AI motion", "control movement"],
+          "category": "motion",
+          "priority": "medium"
+        },
+        {
+          "path": "/video-extender",
+          "anchor_variations": ["video extender", "extend videos", "longer videos"],
+          "category": "video-generation",
+          "priority": "medium"
+        },
+        {
+          "path": "/ai-image-background-remover",
+          "anchor_variations": ["background remover", "remove background", "AI background removal"],
+          "category": "editing",
+          "priority": "medium"
+        },
+        {
+          "path": "/ai-talking-avatar-generator",
+          "anchor_variations": ["AI talking avatar", "talking avatar generator", "avatar videos"],
+          "category": "video-generation",
+          "priority": "medium"
+        },
+        {
+          "path": "/video-effects",
+          "anchor_variations": ["video effects", "AI video effects", "video filters"],
+          "category": "effects",
+          "priority": "low"
+        },
+        {
+          "path": "/image-effects",
+          "anchor_variations": ["image effects", "AI image effects", "photo effects"],
+          "category": "effects",
+          "priority": "low"
+        },
+        {
+          "path": "/watermark-remover",
+          "anchor_variations": ["watermark remover", "remove watermarks", "clean images"],
+          "category": "editing",
+          "priority": "low"
+        },
+        {
+          "path": "/ai-image-enhancer",
+          "anchor_variations": ["AI image enhancer", "enhance images", "improve image quality"],
+          "category": "enhancement",
+          "priority": "low"
+        }
+      ],
+      "hub_pages": [
+        {
+          "path": "/",
+          "anchor_variations": ["ChromaStudio", "AI creative platform", "creative tools"],
+          "category": "homepage",
+          "priority": "high"
+        },
+        {
+          "path": "/pricing",
+          "anchor_variations": ["pricing", "ChromaStudio pricing", "subscription plans"],
+          "category": "conversion",
+          "priority": "medium"
+        }
+      ]
+    },
+    "placement_rules": {
+      "review_articles": {
+        "primary_cta": {
+          "count": "6-8",
+          "locations": ["after_tldr", "after_features", "after_pricing", "before_verdict", "conclusion"],
+          "anchor_strategy": "use_tool_name_variations"
+        },
+        "contextual_links": {
+          "count": "15-20",
+          "strategy": "natural_keyword_replacement",
+          "avoid_overoptimization": true
+        },
+        "supporting_links": {
+          "count": "5-8", 
+          "locations": ["features_section", "use_cases", "alternatives"],
+          "anchor_strategy": "branded_mentions"
+        }
+      },
+      "guide_articles": {
+        "tutorial_links": {
+          "count": "10-15",
+          "locations": ["step_sections", "pro_tips", "resources"],
+          "anchor_strategy": "tool_functionality"
+        },
+        "related_tools": {
+          "count": "8-12",
+          "strategy": "workflow_integration",
+          "context": "enhance_tutorial_value"
+        }
+      },
+      "comparison_articles": {
+        "tool_links": {
+          "count": "12-18",
+          "strategy": "feature_comparison_context",
+          "balance": "equal_linking_to_compared_tools"
+        }
+      }
+    },
+    "anchor_text_guidelines": {
+      "natural_language": {
+        "avoid": ["click here", "read more", "this link"],
+        "prefer": ["descriptive phrases", "tool names", "benefit-focused"],
+        "examples": [
+          "Try ChromaStudio's text-to-video generator",
+          "Enhance your videos with AI upscaling",
+          "Create professional images with AI"
+        ]
+      },
+      "keyword_distribution": {
+        "exact_match": "20%",
+        "partial_match": "40%", 
+        "branded": "30%",
+        "generic": "10%"
+      },
+      "diversity_requirements": {
+        "max_same_anchor": 3,
+        "min_variations_per_url": 2,
+        "contextual_relevance": "required"
+      }
+    },
+    "seo_optimization": {
+      "internal_link_targets": {
+        "per_article_minimum": 15,
+        "per_article_maximum": 30,
+        "homepage_links": "1-2 per article",
+        "tool_page_links": "10-20 per article",
+        "cross_category_linking": "encouraged"
+      },
+      "link_equity_distribution": {
+        "high_priority_pages": "60%",
+        "medium_priority_pages": "30%", 
+        "low_priority_pages": "10%"
+      },
+      "user_experience": {
+        "avoid_link_stuffing": true,
+        "ensure_link_relevance": true,
+        "maintain_reading_flow": true,
+        "provide_genuine_value": true
+      }
+    }
+  },
+  "automation_rules": {
+    "sitemap_fetching": {
+      "frequency": "before_each_article_generation",
+      "cache_duration": "1_hour",
+      "fallback_urls": "predefined_tool_list",
+      "error_handling": "graceful_degradation"
+    },
+    "link_insertion": {
+      "method": "pattern_matching_and_nlp",
+      "context_awareness": "maintain_sentence_structure",
+      "quality_control": "avoid_forced_links",
+      "verification": "ensure_target_urls_exist"
+    },
+    "performance_tracking": {
+      "metrics": ["click_through_rate", "user_engagement", "seo_impact"],
+      "optimization": "continuously_improve_linking_strategy"
+    }
+  }
+}
