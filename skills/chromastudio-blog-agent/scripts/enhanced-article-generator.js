@@ -724,18 +724,18 @@ Options:
 
             // Build full MD with frontmatter
             const frontmatter = `---
-    title: "${result.metadata.title}"
-    description: "${result.metadata.description}"
-    keywords: ${JSON.stringify(result.metadata.keywords)}
-    category: "${result.metadata.category}"
-    readingTime: "${result.metadata.readingTime}"
-    publishDate: "${result.metadata.publishDate}"
-    author: "${result.metadata.author}"
-    ---\n\n`;
+title: "${result.metadata.title}"
+description: "${result.metadata.description}"
+keywords: ${JSON.stringify(result.metadata.keywords)}
+category: "${result.metadata.category}"
+readingTime: "${result.metadata.readingTime}"
+publishDate: "${result.metadata.publishDate}"
+author: "${result.metadata.author}"
+---\n\n`;
 
             fs.writeFileSync(outputPath, frontmatter + result.content, 'utf8');
             console.log(`\n✅ Article saved to: ${outputPath}`);
-        
+            
             
         } catch (error) {
             console.error('❌ Error generating article:', error.message);
