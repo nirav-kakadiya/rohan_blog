@@ -990,6 +990,29 @@ Blog Types: review, guide, comparison, prompt, use-case, api, trend, troubleshoo
             console.log(`\n✅ Universal article generation complete for ${result.platform.name}!`);
             console.log(`📊 Generated ${result.content.split(' ').length} words with ${result.internalLinks.length} strategic internal links`);
             
+            // ✅ Save article as .md file
+            const outputDir = path.join(__dirname, '../output');
+            if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
+
+            const filename = `${keyword.toLowerCase().replace(/\s+/g, '-')}-${blogType}.md`;
+            const outputPath = path.join(outputDir, filename);
+
+            // Build full MD with frontmatter
+            const frontmatter = `---
+    title: "${result.metadata.title}"
+    description: "${result.metadata.description}"
+    keywords: ${JSON.stringify(result.metadata.keywords)}
+    category: "${result.metadata.category}"
+    readingTime: "${result.metadata.readingTime}"
+    publishDate: "${result.metadata.publishDate}"
+    author: "${result.metadata.author}"
+    ---\n\n`;
+
+            fs.writeFileSync(outputPath, frontmatter + result.content, 'utf8');
+            console.log(`\n✅ Article saved to: ${outputPath}`);
+            
+
+
         } catch (error) {
             console.error('❌ Error generating universal article:', error.message);
             if (error.stack) {
